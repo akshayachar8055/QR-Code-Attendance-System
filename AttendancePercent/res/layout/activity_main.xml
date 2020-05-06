@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:text="Student" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dip"
+        android:text="View Details"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/reminder"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dip"
+        android:text="Reminder"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/broadcast"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dip"
+        android:visibility="gone"  
+        android:text="Broadcast messsage" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/broadcast"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dip"
+        android:text="Leave"
+        android:visibility="gone" />
+
+</LinearLayout>
